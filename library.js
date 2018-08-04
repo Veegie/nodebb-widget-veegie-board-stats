@@ -144,7 +144,10 @@ Widget.renderWidget = function (widget, callback) {
 			return callback(err);
 		}
 
-		app.render('widgets/board-stats', data, callback);
+		app.render('widgets/board-stats', data, function(err, html) {
+			widget.html = html;
+			callback(err, widget);
+		});
 	});
 };
 
