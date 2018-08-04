@@ -60,7 +60,7 @@ function getWidgetData(callback) {
 function getActiveUsers(callback) {
 	async.waterfall([
 		function (next) {
-			user.getUidsFromSet('users:online', 0, 19, next);
+			user.getUidsFromSet('users:online', 0, 49, next);
 		},
 		function (uids, next) {
 			user.getUsersFields(uids, ['username', 'userslug', 'status'], next);
