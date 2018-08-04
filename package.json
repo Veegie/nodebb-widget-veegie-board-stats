@@ -1,14 +1,14 @@
 {
-  "name": "nodebb-widget-board-stats",
-  "version": "1.0.2",
-  "description": "Classic Board Stats Widget for NodeBB.",
+  "name": "nodebb-widget-veegie-board-stats",
+  "version": "1.0.0",
+  "description": "Classic Board Stats Widget for NodeBB. A custom fork of nodebb-widget-board-stats.",
   "main": "library.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-widget-board-stats"
+    "url": "https://github.com/Veegie/nodebb-widget-veegie-board-stats"
   },
   "keywords": [
     "nodebb",
@@ -18,17 +18,17 @@
     "statistics"
   ],
   "author": {
-    "name": "psychobunny",
-    "email": "psycho.bunny@hotmail.com"
+    "name": "Veegie",
+    "email": "veegie64@gmail.com"
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-widget-board-stats/issues"
+    "url": "https://github.com/veegie/nodebb-widget-veegie-board-stats/issues"
   },
   "readme": "",
   "readmeFilename": "README.md",
-  "_id": "nodebb-widget-board-stats@0.0.1",
-  "_from": "nodebb-widget-board-stats@~0.0.1",
+  "_id": "nodebb-widget-veegie-board-stats@0.0.1",
+  "_from": "nodebb-widget-veegie-board-stats@~0.0.1",
   "nbbpm": {
     "compatibility": "^1.8.0"
   }
