@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Veegie/nodebb-widget-veegie-board-stats"
+    "url": "https://github.com/lastlifedevs/nodebb-widget-veegie-board-stats"
   },
   "keywords": [
     "nodebb",
@@ -23,7 +23,7 @@
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/veegie/nodebb-widget-veegie-board-stats/issues"
+    "url": "https://github.com/lastlifedevs/nodebb-widget-veegie-board-stats/issues"
   },
   "readme": "",
   "readmeFilename": "README.md",

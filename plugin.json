@@ -2,7 +2,7 @@
 	"id": "nodebb-widget-veegie-board-stats",
 	"name": "Classic Board Stats Widget for NodeBB",
 	"description": "Widget listing active users and other board stats in a classical forum look but shown in real-time. A custom fork of nodebb-widget-board-stats.",
-	"url": "https://github.com/Veegie/nodebb-widget-veegie-board-stats",
+	"url": "https://github.com/lastlifedevs/nodebb-widget-veegie-board-stats",
 	"library": "./library.js",
 	"hooks": [
 		{
