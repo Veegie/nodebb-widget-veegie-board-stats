@@ -1,5 +1,5 @@
 <div component="widget/board-stats" class="widget-board-stats">
-    <h3><a href="{config.relative_path}/users?section=online">Who's Online</a></h3>
+    <h3><a href="{relative_path}/users?section=online">Who's Online</a></h3>
     <p>
         <span component="widget/board-stats/count">{count}</span> users active right now (<span component="widget/board-stats/members">{members}</span> members and <span component="widget/board-stats/guests">{guests}</span> guests).<br />
         <span component="widget/board-stats/list">{list}</span>
