@@ -4,4 +4,4 @@ Widget listing active users and other board stats in a classical forum look but 
 
 # Screenshot
 
-![Screenshot of a forum with the Board Stats Widget as a footer](https://i.imgur.com/Tn5Vw2i.png)
+![Screenshot of a forum with the Board Stats Widget as a footer](screenshot.png)
