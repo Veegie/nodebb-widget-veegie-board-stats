@@ -7,9 +7,9 @@
 
     <h3>Board Statistics</h3>
     <p>
-        Our members have made a total of <strong component="widget/board-stats/posts">{posts}</strong> posts in <strong component="widget/board-stats/topics">{topics}</strong> topics.<br />
-        We currently have <strong component="widget/board-stats/registered">{registered}</strong> members registered.<br />
-        Please welcome our newest member, <span component="widget/board-stats/latest">{latest}</span>.<br />
+        Our users have made a total of <strong component="widget/board-stats/posts">{posts}</strong> posts in <strong component="widget/board-stats/topics">{topics}</strong> topics.<br />
+        We currently have <strong component="widget/board-stats/registered">{registered}</strong> users registered.<br />
+        Please welcome our newest user, <span component="widget/board-stats/latest">{latest}</span>.<br />
 
         The most users online at one time was <strong>{mostUsers.total}</strong> on {mostUsers.date}.
     </p>
