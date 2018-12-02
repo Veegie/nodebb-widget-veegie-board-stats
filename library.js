@@ -104,7 +104,7 @@ Widget.updateAndGetOnlineUsers = function (callback) {
 			db.sortedSetCount('users:online', now - 300000, '+inf', next);
 		},
 		function (onlineCount, next) {
-			module.parent.require('./socket.io/admin/rooms').getTotalGuestCount(function (err, guestCount) {
+			require.main.require('./src/socket.io/admin/rooms').getTotalGuestCount(function (err, guestCount) {
 				if (err) {
 					return next(err);
 				}
