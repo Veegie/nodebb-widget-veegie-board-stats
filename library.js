@@ -2,11 +2,11 @@
 
 var async = module.parent.require('async');
 var nconf = module.parent.require('nconf');
-var db = module.parent.require('./database');
-var user = module.parent.require('./user');
-var utils = module.parent.require('./utils');
+var db = require.main.require('./src/database');
+var user = require.main.require('./src/user');
+var utils = require.main.require('./src/utils');
 
-var socketPlugins = module.parent.require('./socket.io/plugins');
+var socketPlugins = require.main.require('./src/socket.io/plugins');
 
 var app;
 
