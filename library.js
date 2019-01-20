@@ -63,7 +63,7 @@ function getActiveUsers(callback) {
 			user.getUidsFromSet('users:online', 0, 49, next);
 		},
 		function (uids, next) {
-			user.getUsersFields(uids, ['username', 'userslug', 'status'], next);
+			user.getUsersFields(uids, ['username', 'fullname', 'userslug', 'status'], next);
 		},
 	], function (err, data) {
 		if (err) {
@@ -81,7 +81,7 @@ function getLatestUser(callback) {
 			user.getUidsFromSet('users:joindate', 0, 0, next);
 		},
 		function (uids, next) {
-			user.getUsersWithFields(uids, ['username', 'userslug'], 0, next);
+			user.getUsersWithFields(uids, ['username', 'fullname', 'userslug'], 0, next);
 		},
 	], callback);
 }
@@ -89,7 +89,11 @@ function getLatestUser(callback) {
 function joinUsers(usersData) {
 	var str = [];
 	for (var i = 0, ii = usersData.length; i < ii; i++) {
-		str.push('<a href="' + nconf.get('relative_path') + '/user/' + usersData[i].userslug + '">' + usersData[i].username + '</a>');
+		if (usersData[i].fullname) {
+			str.push('<a href="' + nconf.get('relative_path') + '/user/' + usersData[i].userslug + '" title="' + usersData[i].username + '">' + usersData[i].fullname + '</a>');
+		} else {
+			str.push('<a href="' + nconf.get('relative_path') + '/user/' + usersData[i].userslug + '" title="' + usersData[i].username + '">' + usersData[i].username + '</a>');
+		}
 	}
 
 	return str.join(', ');
