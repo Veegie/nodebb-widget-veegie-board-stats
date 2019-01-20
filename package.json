@@ -1,6 +1,6 @@
 {
   "name": "nodebb-widget-veegie-board-stats",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "Classic Board Stats Widget for NodeBB. A custom fork of nodebb-widget-board-stats.",
   "main": "library.js",
   "scripts": {
